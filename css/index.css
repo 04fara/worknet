@@ -1,0 +1,565 @@
+@font-face{
+	src: url(../fonts/Bentham.otf);
+	font-family: Bentham;
+}
+@font-face{
+	src: url(../fonts/AbrilFatface-Regular.otf);
+	font-family: AbrilFatface-Regular;
+}
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+@media only screen and (max-width: 600px) {
+	/* For mobiles: */
+	#login{
+		width: 250px;
+		height: 400px;
+		top: 20%;
+		margin-left: -125px;
+	}
+	#loginframe{
+		width: 95% !important;
+		left: 2.5%;
+		clear: both;
+	}
+	#inviteframe{
+		top: 45px !important;
+		width: 95% !important;
+		left: 2.5%;
+		clear: both;
+	}
+	#loginframe .text{
+		width: 200px;
+	}
+	#inviteframe .text{
+		width: 200px;
+	}
+	#login_button, #reg_button {
+		width: 200px;
+	}
+	.divider {
+		position: relative;
+		width: 90%;
+		left: 5%;
+		top: 47%;
+		border-left: 0px;
+		border-bottom: 1px solid black;
+	}
+	#description{
+		width: 300px;
+		top: 7%;
+		margin-left: -150px;
+	}
+	#dt {
+		position: relative;
+		left: 5%;
+		width: 90%;
+		padding: 0;
+		border: 0;
+		font-size: 16.5px;
+		font-family: Bentham;
+		vertical-align: baseline;
+	}
+	#dte {
+		width: 81.75% !important;
+		top: 10px !important;
+		left: 5% !important;
+		float: none !important;
+	}
+	#dte p{
+		font-size: 0px !important;
+	}
+	#emplos_button {
+		font-size: 15px !important;
+		width: 200px !important;
+	}
+	#dtc {
+		width: 81.75% !important;
+		top: 20px !important;
+		left: 5% !important;
+		float: none !important;
+	}
+	#dtc p{
+		font-size: 0px !important;
+	}
+	#corps_button {
+		font-size: 14px !important;
+		width: 200px !important;
+	}
+	#regform {
+		width: 300px;
+		height: 600px;
+		top: 5%;
+		margin-left: -150px;
+	}
+}
+@media only screen and (min-width: 601px) and (max-width: 769px) {
+	/* For tablets: */
+	#login{
+		width: 300px;
+		height: 440px;
+		top: 30%;
+		margin-left: -150px;
+	}
+	#loginframe{
+		width: 100% !important;
+		float: left !important;
+		clear: both;
+	}
+	#inviteframe{
+		top: 65px !important;
+		width: 100% !important;
+		float: left !important;
+		clear: both;
+	}
+	#loginframe .text{
+		width: 200px;
+	}
+	#inviteframe .text{
+		width: 200px;
+	}
+	.divider {
+		position: relative;
+		width: 90%;
+		left: 5%;
+		top: 45%;
+		border-bottom: 1px solid black;
+	}
+	#loginframe .text{
+		width: 200px;
+	}
+	#inviteframe .text{
+		width: 200px;
+	}
+	#login_button, #reg_button {
+		width: 200px;
+	}
+	#description{
+		width: 725px;
+		top: 10%;
+		margin-left: -362.5px;
+	}
+	#dt {
+		position: relative;
+		left: 5%;
+		width: 90%;
+		padding: 0;
+		border: 0;
+		font-size: 19px;
+		font-family: Bentham;
+		vertical-align: baseline;
+	}
+	#dte {
+		width: 81.75% !important;
+		top: 5px !important;
+		left: 7.5% !important;
+		float: none !important;
+	}
+	#dte p{
+		font-size: 17px !important;
+	}
+	#emplos_button {
+		font-size: 15px !important;
+		width: 200px !important;
+	}
+	#dtc {
+		width: 81.75% !important;
+		top: 15px !important;
+		left: 7.5% !important;
+		float: none !important;
+	}
+	#dtc p{
+		font-size: 17px !important;
+	}
+	#corps_button {
+		font-size: 14px !important;
+		width: 200px !important;
+	}
+	#regform {
+		width: 600px;
+		height: 800px;
+		top: 15%;
+		margin-left: -300px;
+	}
+}
+@media only screen and (min-width: 770px) {
+	/* For desktop: */
+	.divider {
+		position: absolute;
+		left: 50%;
+		top: 55%;
+		bottom: 5%;
+		border-left:1px solid black;
+	}
+	#login{
+		width: 700px;
+		height: 470px;
+		top: 300px;
+		margin-left: -350px;
+	}
+	#loginframe .text{
+		width: 300px;
+	}
+	#inviteframe .text{
+		width: 300px;
+	}
+	#login_button, #reg_button {
+		width: 300px;
+	}
+	#description{
+		width: 1400px;
+		height: 200px;
+		top: 15%;
+		margin-left: -700px;
+	}
+	#dt {
+		position: relative;
+		left: 5%;
+		width: 90%;
+		font-size: 19px;
+	}
+	#dte {
+		width: 40%;
+		top: 35%;
+		left: 5.5%;
+		float: left;
+	}
+	#dte p{
+		font-size: 25px !important;
+	}
+	#emplos_button {
+		font-size: 25px;
+		width: 300px;
+	}
+	#dtc {
+		width: 40%;
+		top: 35%;
+		left: 11%;
+		float: left;
+	}
+	#dtc p{
+		font-size: 25px !important;
+	}
+	#corps_button {
+		font-size: 25px;
+		width: 350px;
+	}
+	#regform {
+		width: 1200px;
+		height: 750px;
+		top: 15%;
+		margin-left: -600px;
+	}
+}
+body {
+	margin: 0;
+}
+body:before {
+
+}
+#navbar {
+	z-index: 1;
+	height: 10.25%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.9);
+	text-align: center;
+}
+#navbarimg{
+	height: 100%;
+}
+#navbar a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-family: AbrilFatface-Regular;
+	font-size: 15px;
+	line-height: 45px;
+	font-weight: lighter;
+	margin: 4px;
+}
+
+#navbar a:hover {
+	font-size: 18px;
+	transition: width 0.5s ease-in-out, font-size 0.1s ease-in-out;
+}
+
+#navbar a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease-in-out, background-color .5s ease-in-out;
+}
+
+#navbar a:hover:after {
+	width: 100%;
+	background: black;
+}
+
+#navbar a:before{
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease-in-out, background-color .5s ease-in-out;
+}
+
+#navbar a:hover:before {
+	width: 100%;
+	background: black;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	height: 100%;
+}
+
+.dropdown-content {
+	display: none;
+	background-color: #f9f9f9;
+	width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+div#first{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+div#first:before{
+	content: "";
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background: url(../img/backgroundfirst.jpg) no-repeat center fixed;
+	background-size: cover;
+	height: 101%; width: 100%;
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+	z-index: -1;
+	border-collapse: both;
+}
+div#second{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 100%;
+	left: 0;
+	right: 0;
+}
+div#second:before{
+	content: "";
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background: url(../img/backgroundsecond.jpg) no-repeat center fixed;
+	background-size: cover;
+	height: 101%; width: 100%;
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+	z-index: -1;
+}
+div#third{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 200%;
+	left: 0;
+	right: 0;
+}
+div#third:before{
+	content: "";
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background: url(../img/backgroundthird.jpg) no-repeat center fixed;
+	background-size: cover;
+	height: 101%; width: 100%;
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+	z-index: -1;
+}
+.active {
+	background-color: #4CAF50;
+}
+:focus {
+	outline: none;
+}
+.glowing-border {
+	border: 0px solid #dadada;
+}
+.glowing-border:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 15px #9ecaed;
+}
+#login{
+	display: block;
+	position: absolute;
+	left: 50%;
+	box-sizing: border-box;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+}
+#loginimg{
+	width: 100%;
+}
+#loginframe {
+	width: 50%;
+	position: relative;
+	float: left;
+	top: 15px;
+}
+#loginframe .label {
+	position: relative;
+	color: black;
+	font-weight: bold;
+	padding: 1px 0px 8px;
+}
+#loginframe .labeled {
+	margin-bottom: 10px;
+}
+#loginframe .text {
+	padding: 9px 8px 9px;
+	font-size: 14px;
+}
+.button_big.flat_button {
+	padding-top: 7px;
+	padding-bottom: 8px;
+}
+.flat_button {
+	padding: 6px 16px 6px 16px;
+	margin: 0;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: #6383a8;
+	color: #FFF;
+	border: 0;
+	border-radius: 2px;
+}
+#login_button {
+	position: relative;
+	left: 0;
+	right: auto;
+	margin-top: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#reg_button {
+	position: relative;
+	left: 0;
+	margin-top: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#inviteframe{
+	width: 50%;
+	position: relative;
+	float: left;
+	top: 45px;
+}
+#inviteframe .label {
+	position: relative;
+	color: black;
+	font-weight: bold;
+	padding: 1px 0px 8px;
+}
+#inviteframe .labeled {
+	padding-bottom: 7px;
+}
+#inviteframe .text {
+	padding: 9px 8px 9px;
+	font-size: 14px;
+}
+#description {
+	display: block;
+	position: absolute;
+	left: 50%;
+	box-sizing: border-box;
+	text-align: center;
+}
+#dt {
+	padding: 2px 5px 5px 2px;
+	display: block;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	font-family: Bentham;
+	vertical-align: baseline;
+}
+#dte {
+	padding: 10px 15px 15px 10px;
+	text-align: center;
+	position: relative;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	font-family: Bentham;
+	vertical-align: baseline;
+}
+#dtc {
+	padding: 10px 15px 15px 10px;
+	text-align: center;
+	position: relative;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	font-family: Bentham;
+	vertical-align: baseline;
+}
+#emplos_button {
+	position: relative;
+	left: 0;
+	right: auto;
+	margin-top: 5px;
+	font-weight: bold;
+}
+#corps_button {
+	position: relative;
+	left: 0;
+	right: auto;
+	margin-top: 5px;
+	font-weight: bold;
+}
+#regform{
+	display: block;
+	position: absolute;
+	left: 50%;
+	box-sizing: border-box;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+}

@@ -1,0 +1,646 @@
+@font-face{
+	src: url(../fonts/Bentham.otf);
+	font-family: Bentham;
+}
+@font-face{
+	src: url(../fonts/AbrilFatface-Regular.otf);
+	font-family: AbrilFatface-Regular;
+}
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+@media only screen and (max-width: 600px) {
+	/* For mobiles: */
+	#navbar {
+		height: 10%;
+		width: 100%;
+	}
+	.divider {
+		position: relative;
+		width: 80%;
+		left: 10%;
+		border-left: 0px;
+		border-bottom: 1px solid white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.dividert {
+		position: relative;
+		top: -10px;
+		left: 56%;
+		border-left: 0px;
+		border-bottom: 1px solid white;
+	}
+	.dividert#mi {
+		width: 51%;
+		left: 39%;
+	}
+	.dividert#ci {
+		width: 46%;
+		left: 44%;
+	}
+	div#first {
+		position: absolute;
+		left: 10%;
+		width: 80%;
+		top: 700px;
+		text-align: center;
+	}
+	div#second {
+		width: 80%;
+		left: 10%;
+		top: 15%;
+	}
+	.destab {
+		display: none;
+		visibility: hidden;
+	}
+	.mob {
+		display: block !important;
+		visibility: visible !important;
+	}
+	div#first div, img {
+		font-size: 12px;
+	}
+	div#first div {
+		margin-bottom: 30px;
+	}
+	div#first img {
+		height: 64px;
+		width: 64px;
+	}
+	#second #signupme {
+		top: 15px;
+		font-size: 25px;
+	}
+	.box .text {
+		width: 200px;
+		margin-bottom: 10px;
+	}
+	.message {
+		width: 100%;
+		top: 35px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#signup_button {
+		top: 35px;
+	}
+	#content {
+		z-index: -1;
+		height: 100% !important;
+		margin-bottom: 10%;
+	}
+	#editb {
+		float: top;
+		font-size: 15px;
+		width: 100%;
+		margin-top: 5px;
+	}
+	#avatarimg {
+		width: 100%;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	}
+	#information {
+		position: relative;
+		top: 2%;
+	}
+	#maininfo {
+		left: 6%;
+		top: 6%;
+		margin-bottom: 2px;
+	}
+	#name {
+		top: 5%;
+		left: 10%;
+		font-size: 15px;
+	}
+	#status {
+		top: 5%;
+		left: 10%;
+		font-size: 12px;
+	}
+	#age {
+		left: 10%;
+		top: 2%;
+	}
+	#profession {
+		left: 10%;
+		top: 2%;
+	}
+	#company {
+		left: 10%;
+		top: 2%;
+	}
+	#occupation {
+		left: 10%;
+		top: 2%;
+	}
+	#contactinfo {
+		left: 6%;
+		top: 3%;
+		margin-bottom: 2px;
+	}
+	#telnum {
+		left: 10%;
+	}
+}
+@media only screen and (min-width: 601px) and (max-width: 769px) {
+	/* For tablets: */
+	#navbar {
+		height: 10%;
+		width: 100%;
+	}
+	.divider {
+		position: relative;
+		width: 80%;
+		left: 10%;
+		border-left: 0px;
+		border-bottom: 1px solid white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.dividert {
+		position: relative;
+		top: -10px;
+		left: 56%;
+		border-left: 0px;
+		border-bottom: 1px solid white;
+	}
+	.dividert#mi {
+		width: 60%;
+		left: 30%;
+	}
+	.dividert#ci {
+		width: 57%;
+		left: 33%;
+	}
+	div#first {
+		position: absolute;
+		left: 2%;
+		width: 48%;
+		top: 30%;
+		text-align: center;
+	}
+	div#second {
+		width: 50%;
+		left: 50%;
+		top: 30%;
+	}
+	.destab {
+		display: none;
+		visibility: hidden;
+	}
+	.mob {
+		display: block !important;
+		visibility: visible !important;
+	}
+	div#first div, img {
+		font-size: 15px;
+	}
+	div#first div {
+		margin-bottom: 30px;
+	}
+	div#first img {
+		height: 48px;
+		width: 48px;
+	}
+	#second #signupme {
+		top: 15px;
+		font-size: 25px;
+	}
+	.box .text {
+		width: 80%;
+		margin-bottom: 10px;
+	}
+	.message {
+		width: 100%;
+		top: 35px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#signup_button {
+		top: 35px;
+	}
+	#content {
+
+	}
+	#editb {
+		text-align: right !important;
+		font-size: 15px;
+		width: 100%;
+		margin-top: 5px;
+		right: 10px;
+	}
+	#avatar {
+		float: none !important;
+		left: 30%;
+		top: 10px;
+	}
+	#avatarimg {
+		height: 200px;
+	}
+	#information {
+		position: relative;
+		left: %;
+		top: 10px;
+	}
+	#maininfo {
+		left: 6%;
+		top: 6%;
+	}
+	#name {
+		top: 5%;
+		left: 33.5%;
+		font-size: 20px;
+	}
+	#status {
+		top: 5%;
+		left: 33.75%;
+		font-size: 12px;
+	}
+	#age {
+		left: 10%;
+		top: 2%;
+	}
+	#profession {
+		left: 10%;
+		top: 2%;
+	}
+	#company {
+		left: 10%;
+		top: 2%;
+	}
+	#occupation {
+		left: 10%;
+		top: 2%;
+	}
+	#contactinfo {
+		left: 6%;
+		top: 3%;
+	}
+	#telnum {
+		left: 10%;
+	}
+}
+@media only screen and (min-width: 770px) {
+	/* For desktop: */
+	#navbar {
+		height: 100px;
+		width: 100%;
+	}
+	.divider {
+		position: relative;
+		width: 55%;
+		left: 39%;
+		top: 5px;
+		border-left: 0px;
+		border-top: 1px solid white;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+	.dividert {
+		position: relative;
+		top: 6px;
+		left: 56%;
+		border-left: 0px;
+		border-bottom: 1px solid white;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+	.dividert#mi {
+		width: 47%;
+		left: 47%;
+	}
+	.dividert#ci {
+		width: 46%;
+		left: 48%;
+		margin-top: 3px;
+	}
+	div#first {
+		position: absolute;
+		left: 1.5%;
+		width: 48.5%;
+		top: 400px;
+	}
+	div#second {
+		width: 50%;
+		left: 50%;
+		top: 250px;
+	}
+	.mob {
+		display: none !important;
+		visibility: hidden !important;
+	}
+	div#first div, img {
+		margin-right: 10px;
+		font-size: 15px;
+	}
+	div#first div {
+		margin-bottom: 40px;
+	}
+	div#first img {
+		height: 64px;
+		width: 64px;
+	}
+	#second #signupme {
+		font-size: 45px;
+	}
+	.box .text {
+		width: 60%;
+		margin-bottom: 10px;
+	}
+	.message {
+		width: 100%;
+		top: 40px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	#signup_button {
+		top: 40px;
+	}
+	#content {
+
+	}
+	#editb {
+		text-align: right !important;
+		font-size: 15px;
+		width: 100%;
+		margin-top: 5px;
+		right: 10px;
+	}
+	#avatar {
+		top: 5%;
+		left: 2%;
+	}
+	#avatarimg {
+		height: 20%;
+	}
+	#information {
+		position: relative;
+		top: 5%;
+		left: 0%;
+	}
+	#maininfo {
+		left: 4%;
+		top: 15px;
+	}
+	#name {
+		top: 5%;
+		left: 5%;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	#status {
+		top: 5%;
+		left: 5%;
+		font-size: 16px;
+	}
+	#age {
+		font-size: 20px;
+		left: 5%;
+		top: 15px;
+	}
+	#profession {
+		font-size: 20px;
+		left: 5%;
+		top: 15px;
+	}
+	#company {
+		font-size: 20px;
+		left: 5%;
+		top: 15px;
+	}
+	#occupation {
+		font-size: 20px;
+		left: 5%;
+		top: 15px;
+	}
+	#contactinfo {
+		position: relative !important;
+		left: 4%;
+		top: 15px;
+		margin-top: 3px;
+	}
+	#telnum {
+		font-size: 20px;
+		top: 15px;
+		left: 5%;
+	}
+}
+body {
+	margin: 0;
+	background: url(../img/background1.jpg) repeat-y center fixed;
+	background-size: cover;
+}
+.active {
+	background-color: #4CAF50;
+}
+:focus {
+	outline: none;
+}
+#navbar {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.9);
+	text-align: center;
+}
+#navbarimg{
+	height: 100%;
+}
+.glowing-border {
+	border: 0px solid #dadada;
+}
+.glowing-border:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 15px #9ecaed;
+}
+#navbar a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-family: AbrilFatface-Regular;
+	font-size: 15px;
+	line-height: 45px;
+	font-weight: lighter;
+	margin: 4px;
+
+}
+
+#navbar a:hover {
+	font-size: 19px;
+	transition: width 0.5s ease-in-out, font-size 0.1s ease-in-out;
+}
+
+#navbar a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease-in-out, background-color .5s ease-in-out;
+}
+
+#navbar a:hover:after {
+	width: 100%;
+	background: black;
+}
+
+#navbar a:before{
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease-in-out, background-color .5s ease-in-out;
+}
+
+#navbar a:hover:before {
+	width: 100%;
+	background: black;
+}
+#navbar img:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease-in-out, background-color .5s ease-in-out;
+}
+#navbar img:before {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease-in-out, background-color .5s ease-in-out;
+}
+#navbar img:hover {
+	font-size: 18px;
+	transition: width 0.5s ease-in-out, font-size 0.1s ease-in-out;
+}
+#navbar img:hover:after {
+	width: 100%;
+	background: black;
+}
+#navbar img:hover:before {
+	width: 100%;
+	background: black;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	height: 100%;
+	border-radius: 50%;
+	z-index: 3;
+}
+.dropdown-content {
+	display: none;
+	background-color: #f9f9f9;
+	width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.box {
+	position: relative;
+	top: 40px;
+}
+.box .text {
+	padding: 9px 8px 9px;
+	font-size: 14px;
+}
+.button_big.flat_button {
+	padding-top: 7px;
+	padding-bottom: 8px;
+}
+.flat_button {
+	padding: 6px 16px 6px 16px;
+	margin: 0;
+	font-size: 14px;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: #6383a8;
+	color: #FFF;
+	border: 0;
+	border-radius: 2px;
+}
+#content {
+	position: absolute;
+	top: 15%;
+	width: 70%;
+	height: 500px;
+	left: 15%;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 8px;
+	margin-bottom: 10%;
+}
+#editb {
+	position: absolute;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	text-align: center;
+	font-size: 15px;
+	width: 100%;
+	z-index: 0;
+}
+#editb a {
+	text-decoration: none;
+	color: white;
+}
+#editb a:hover {
+	text-decoration: underline !important;
+}
+#avatar {
+	position: relative;
+	float: left;
+}
+#name {
+	position: relative;
+	color: white;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+}
+#status {
+	position: relative;
+	color: white;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+}
+#maininfo {
+	position: relative;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+#age {
+	position: relative;
+}
+#profession {
+	position: relative;
+}
+#company {
+	position: relative;
+}
+#occupation {
+	position: relative;
+}
+#contactinfo {
+	position: relative;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+#telnum {
+	position: relative;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WorkNET: Sign in</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.png"></link>
+	<link type="text/css" rel="stylesheet" href="css/sign_in.css"/>
+</head>
+<body>
+	<div id="navbar">
+		<span class="dropdown"><img class="dropdown" src="img/babr.png"/>
+			<div class="dropdown-content">
+				<a href="index.html">MAIN</a>
+				<a href="sign_up_e.html">SIGN IN (EMPLOYEE)</a>
+				<a href="sign_up_c.html">SIGN IN (CORPORATION)</a>
+			</div>
+		</span>
+	</div>
+	<div id="login">
+		<div id="signinme">
+			Sign in
+		</div>
+		<div id="loginframe">
+			<form method="POST" name="loginbox" id="login_form" action="" onsubmit="" target="">
+				<div class="labeled">
+					<input type="text" name="login" class="text glowing-border" placeholder="Login">
+				</div>
+				<div class="labeled">
+					<input type="password" name="password" class="text glowing-border" placeholder="Password">
+				</div>
+			</form>
+			<button class="flat_button button_big" id="login_button">Sign in</button>
+		</div>
+		<div class="divider"></div>
+		<div id="inviteframe">
+			<form method="GET" name="invitebox" id="invite_form" action="" onsubmit="" target="">
+				<div class="labeled">
+					<input type="text" name="invitecode" class="text glowing-border" placeholder="If you have an invitation code, enter it">
+				</div>
+			</form>
+			<button class="flat_button button_big" id="login_button">Check in</button>
+		</div>
+	</div>
+</body>
+</html>
